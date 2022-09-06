@@ -1,0 +1,188 @@
+/*----------------------------------------------------1440px-------------------------------------------------------------------*/
+@media (min-width: 1440px) {
+    /*---------------------------------------section-life------------------------------------------*/
+    .line_l { 
+        top: 41px;
+        height: 40px;
+    }
+    .line_r {
+        top: 78px;
+        right: -44px;
+        height: 40px;
+    }
+    .time2 .circle{
+        margin-top: -16px;
+        left: -22px;
+    }
+    .time2 .line_l {
+        top: 38px;
+        height: 45px;
+        left: -45px;
+    }
+    .time3 .line_l {
+        left: 48px;
+    }
+    .time3 .circle {
+        height: 50px;
+        width: 50px;
+        background-color: #00d2b5;
+        border-radius: 50%;
+        color: white;
+        position: relative;
+        padding: 12px 17px;
+        left: 22px;
+        top: -12px;
+    }
+
+    /*---------------------------------------section join time------------------------------------------*/
+
+    .section-join-time .circle {
+        top: -6px;
+    }
+    .tt1::after,
+    .tt3::before {
+        width: 66%;
+    }
+    .tt2 {
+        margin: 40px -71px 40px 14px;
+    }
+}
+
+/*----------------------------------------------------1024px-------------------------------------------------------------------*/
+
+@media(min-width:1024px){
+
+    .row {
+        width: 100%;
+    }
+    .section-features .span-1-of-3 {
+        margin-left: 2.5%;
+    }
+    .section-breif {
+        height: 650px;
+    }
+    .section-breif .span-1-of-2:nth-of-type(2) {
+        height: 620px;
+    }
+
+    /*---------------------------------------section-life------------------------------------------*/
+    
+    .section-life .circle {
+        top: -8px;
+    }
+    .time1::after {
+        width: 74%;
+    }
+    .time2::after {
+        width: 74%;
+        margin-left: 26px;
+    }
+    .time2 .info {
+        margin-right: -160px;
+    }
+    .line_r {
+        right: -78px;
+    }
+
+
+
+    .section-join img {
+        height: 500px;
+        margin-left: 8%;
+    }
+
+    /*---------------------------------------section join time------------------------------------------*/
+    .tt1::after,
+    .tt3::before {
+        width: 74%;
+    }
+    .section-join-time .tt2 .circle {
+        top: -4px;
+        left: 4px;
+    }
+    .tt2 .ln_l {
+        left: 30px;
+    }
+    .section-join-time .circle {
+       top: -4px;
+    }
+    .tt2 .ln_l:nth-of-type(2) {
+        left: -22px;
+    }
+    .tt3 .ln_r {
+        right: -96px;
+    }
+
+
+
+    .section-faq {
+        width: 90%;
+    }
+    footer hr {
+        width: 100%;
+        margin: -20px 40px 40px 0px;
+    }
+}
+
+
+/*----------------------------------------------------768px-------------------------------------------------------------------*/
+
+@media(min-width:768px){
+    header .row:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+    }
+    header .span-1-of-2,
+    header div:nth-of-type(2) .span-1-of-2:nth-of-type(2) {
+        width: 100%;
+    }
+    .section-features .span-1-of-3 {
+        width: 45%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        padding: 20px;
+        margin-left: 1px;
+    }
+    .section-features {
+        height: 700px;
+    }
+
+    .section-breif{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+    .section-breif .span-1-of-2:nth-of-type(1),
+    .section-breif .span-1-of-2:nth-of-type(2) {
+        width: 100%;
+    }
+    hr {
+        width: 100%;
+        margin: 0;
+        margin-top: -30px;
+    }
+    .row{
+        95%
+    }
+    .section-life .intro {
+        padding: 18px 14px;
+    }
+    .section-domain .col .span-1-of-5 {
+        padding: 28px 2px 0 24px;
+    }
+    .section-join img {
+        margin-left: -20%;
+    }
+
+    /*---------------------------------------section-life------------------------------------------*/
+
+    .section-life .circle {
+        top: -20px;
+    }
+    .time1::after {
+        width: 90%;
+    }
+    .section-life .info {
+        width: 97%;
+    }
+}
